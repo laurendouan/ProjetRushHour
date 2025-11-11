@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.TilePane?>
-	
-<TilePane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RushHourController">
-	<!-- TODO Add Nodes -->
+<?import javafx.scene.layout.VBox?>
+
+<TilePane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0339A6;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox>
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/logo.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
 </TilePane>
